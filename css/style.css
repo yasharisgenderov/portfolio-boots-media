@@ -1,0 +1,101 @@
+.main {
+  min-height: 80vh;
+}
+
+body {
+  background: url(ignasi_pattern_s.png);
+}
+
+.navbar-logo {
+  background-color: #4aaaa5;
+  color: white !important;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 15px;
+  /* margin-left: 70px; */
+}
+
+.navbar-custom {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navlink-custom {
+  color: #777 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: 15px !important;
+}
+
+.about-section {
+  /* flex: 100%; */
+  background: #fff;
+  padding: 25px;
+  margin-top: 32px;
+}
+
+.about-section-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.about-section-content {
+  font-size: 16px;
+  line-height: 30px;
+  color: #bbc;
+}
+
+.about-section-img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.about-section-second-para {
+  clear: both;
+}
+
+.image {
+  width: 55px;
+  height: 55px;
+  padding-left: 5px;
+}
+
+.connect-section {
+  /* flex: 100%; */
+  background: #fff;
+  padding: 30px 30px 43px;
+  margin-top: 32px;
+}
+
+.connect-section-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 0 !important;
+}
+
+.footer-para {
+  background-color: #777;
+  color: #fff;
+  /* padding: 40px; */
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 0;
+  border-top: 6px solid #4aaaa5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
