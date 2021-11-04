@@ -28,35 +28,47 @@ body {
   padding: 15px !important;
 }
 
-.about-section {
-  background: #fff;
-  padding: 25px;
+.portfolio-section {
+  background-color: #fff;
+  padding: 20px;
   margin-top: 32px;
 }
 
-.about-section-title {
+.portfolio-section-title {
+  font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 32px;
-  font-weight: bold;
+  padding-bottom: 20px;
+  font-weight: 700;
   color: #4aaaa5;
 }
 
-.about-section-content {
-  font-size: 16px;
-  line-height: 30px;
-  color: #bbc;
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.about-section-img {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-  margin-top: 5px;
+.hobby {
+  position: relative;
+  flex: 50%;
+  margin: 10px;
 }
 
-.about-section-second-para {
-  clear: both;
+.hobby-img {
+  width: 100%;
+}
+
+.hobby-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* max-width: 275px; */
+  font-weight: 300;
+  padding: 15px;
+  color: #fff;
+  background-color: #4aaaa5;
+  font-size: 22px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .image {
